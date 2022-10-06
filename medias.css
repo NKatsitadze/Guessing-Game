@@ -1,0 +1,34 @@
+/* 1920 PX */
+@media (max-width:120em) { 
+    header {
+        width: 100rem;
+        margin: 0 auto;
+    }
+
+    main {
+        width: 100rem;
+        margin: 0 auto;
+    }
+}
+
+ /* 700 PX  */
+@media (max-width: 43.75em) {
+    html {
+        font-size: 40% !important;
+    }
+    header {
+        width: 50rem !important;
+        height: 50rem !important;
+    }
+    main {
+        width: 50rem !important;
+        height: 70rem !important;
+        gap: 2rem;
+    }
+}
+ /* 450 PX */
+@media (max-width: 28.125em) {
+    html {
+        font-size: 37% !important;
+    }
+}
